@@ -11,3 +11,6 @@ echo "<br />" . var_dump((bool)array()); // bool(false)
 echo "<br />" . var_dump((bool)"false"); // bool(true)
 echo "<br />" . var_dump((bool)true); // bool(true)
 
+$x = true;
+echo $x;
+
