@@ -52,9 +52,7 @@ $new_order = array(
 /////
 
 
-function array_coffe(): iterable{
-	return[Cappuccino, Flat white, Espresso];
-}
+
 
 $array_coffe = array_coffe();
 
