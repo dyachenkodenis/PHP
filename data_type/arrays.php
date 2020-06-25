@@ -51,13 +51,6 @@ $new_order = array(
 
 /////
 
-
-
-
-$array_coffe = array_coffe();
-
-print_r($array_coffe);
-
 print_r($coffe);
 var_dump($coffe);
 var_export($coffe);
