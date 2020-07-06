@@ -1,5 +1,1 @@
-<a href="../predefined_vars/predefined_vars.php">Back</a>
-
-<?php
-
-echo $_GET['subject'];
+Lorem ipsum dolor 3 sit amet Los Angeles.
