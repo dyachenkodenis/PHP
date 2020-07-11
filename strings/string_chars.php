@@ -7,6 +7,7 @@ echo count_chars($test, 3);
 
 //levenshtein()
 echo levenshtein("Hello, World!", "ello, Wirld");
+
 echo levenshtein("Hello, World!", "ello, World", 10, 20, 30);
 
 //similar_text()
@@ -24,7 +25,8 @@ echo "Hello, World!";
 
 //ltrim()
 $test2 = "Hello, World!";
-echo $test2 . "<br />";
+echo $test2;
+
 echo ltrim($test2, "Hello");
 
 //rtrim()
@@ -64,6 +66,7 @@ echo $user;
 
 //stristr()
 echo stristr("Hello, World!", "WORLD");
+echobr();
 
 //str_replace()
 echo str_replace("World", "Peter", "Hello, World!");

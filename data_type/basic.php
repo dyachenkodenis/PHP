@@ -10,18 +10,12 @@ echo "<br />";
 echo "Last statement"; /*  ... more code
 	...*/
 
-
-?>
-
-<p><br /></p>
-
-<?php 
-	   		if($espresso = "espresso"):?>
+  	if($espresso = "espresso"):?>
 
 espresso
 
 <?php 		else:
-					?>
+				?>
 
 cappuccino
 

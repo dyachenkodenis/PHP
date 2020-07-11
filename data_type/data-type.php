@@ -1,4 +1,5 @@
 <?php
+
 //Data type
 var_dump(is_bool(true)); //boolean
 

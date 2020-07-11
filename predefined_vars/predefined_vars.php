@@ -17,7 +17,7 @@ var_test();
 echo $num;
 
 //$_GET;
-echo "<br /><a href='../files/inc3.php?subject=Message: Test Get'>Test GET</a>";
+echo "<a href='../files/inc3.php?subject=Message: Test Get'>Test GET</a>";
 
 //$_POST;
 ?>
@@ -37,7 +37,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 }
 
 //$_SERVER;
-echo "<pre>";
 print_r($_SERVER);
 
 //$_COOKIE;
@@ -50,7 +49,6 @@ if(!isset($_COOKIE[$cookie_name])){
 	echo "Cookie '" . $cookie_name . "' is set!";
 	echo "Value is:" . $_COOKIE[name];
 }
-echo "<br />";
 
 //$_FILES
 //An associative array of items uploaded to the current script via the HTTP POST method. The structure of this array is outlined in the POST method uploads section.

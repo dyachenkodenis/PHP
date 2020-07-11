@@ -2,8 +2,8 @@
 
 //basename()
 $test = "files/inc3.php";
-echo basename($test). "<br />";
-echo basename($test, ".php")."<br />";
+echo basename($test);
+echo basename($test, ".php");
 
 //chgrp()
 @chgrp("files/inc4.php", "admin");
@@ -24,14 +24,14 @@ copy('../files/inc4.php', '../files/inc5.php');
 @disk_total_space("C:"); //for Windows
 
 //file_exists()
-echo file_exists("../files/inc3.php")."<br />";
+echo file_exists("../files/inc3.php");
 
 //file_get_contents()
-$test1 = file_get_contents("../files/inc3.php")."<br />";
+$test1 = file_get_contents("../files/inc3.php");
 echo $test1;
 
 //file_put_contents()
-$test2 =file_put_contents("../files/inc3.php", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, quasi.")."<br />";
+$test2 =file_put_contents("../files/inc3.php", "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, quasi.");
 echo $test2;
 
 //file()
@@ -39,7 +39,7 @@ print_r(file("../files/inc3.php"));
 
 //filesize()
 $test3 = filesize("../files/inc3.php");
-echo $test3 . "<br />";
+echo $test3;
 
 //rename()
 rename('../files/inc5.php', '../files/inc6.php');
@@ -47,7 +47,7 @@ rename('../files/inc5.php', '../files/inc6.php');
 //stat()
 $test4 = stat('../files/inc3.php');
 print_r($test4);
-echo $test4['size']."<br />";
+echo $test4['size'];
 
 //tempnam()
 @tempnam('../files/inc4.php', "TMPO");
@@ -70,16 +70,16 @@ $test7 = '../files/inc5.php';
 $test8 = '../files/inc7.php';
 $test9 = '../files/inc7';
 @symlink($test8, $test9);
-echo readlink($test9) . "<br />";
+echo readlink($test9);
 
 //linkinfo()
-echo linkinfo('../files/inc7') . "<br />";
+echo linkinfo('../files/inc7');
 
 //readlink()
-echo readlink('../files/inc7'). "<br />";
+echo readlink('../files/inc7');
 
 //realpath()
-echo realpath('../files/inc7.php')."<br />";
+echo realpath('../files/inc7.php');
 
 //move_uploaded_file()
 /*
@@ -122,28 +122,28 @@ echo(umask());
 unlink('../files/inc7');
 
 //fileatime()
-echo fileatime('../files/test.ini') ."<br />";
+echo fileatime('../files/test.ini');
 
 //filemtime()
-echo filemtime('../files/test.ini')."<br />";
+echo filemtime('../files/test.ini');
 
 //filegroup()
-echo filegroup('../files/test.ini')."<br />";
+echo filegroup('../files/test.ini');
 
 //fileinode()
-echo fileinode('../files/test.ini'). "<br />";
+echo fileinode('../files/test.ini');
 
 //fileowner()
-echo fileowner('../files/test.ini')."<br />";
+echo fileowner('../files/test.ini');
 
 //fileperms()
-echo fileperms('../files/test.ini'). "<br />";
+echo fileperms('../files/test.ini');
 
 //filetype()
-echo filetype('../files/test.ini')."<br />";
+echo filetype('../files/test.ini');
 
 //is_dir()
-$test11 = ('../files/test.ini')."<br />";
+$test11 = ('../files/test.ini');
 if(is_dir($test11)){
 	echo 'true';
 }else{

@@ -5,16 +5,16 @@ echo addcslashes('foo[]', 'A..z'). "<br />";
 
 //stripcslashes()
 $test = addcslashes('hello', 'A..z');
-echo $test . "<br />";
-echo stripcslashes($test)."<br />";
+echo $test;
+echo stripcslashes($test);
 
 //addslashes()
 $test1 = "O'reilly";
-echo addslashes($test1)."<br />";
+echo addslashes($test1);
 
 //stripslashes()
 $test2 = "O\'reilly";
-echo stripslashes($test2)."<br />";
+echo stripslashes($test2);
 
 //htmlspecialchars()
 $test3 = htmlspecialchars("<a href='test' >World!</a>", ENT_QUOTES);

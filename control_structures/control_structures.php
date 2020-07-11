@@ -1,4 +1,5 @@
 <?php
+
 $coffe_1 = "Cappuccino"; 
 $coffe_2 = "Flat White";
 $coffe_3 = "Espresso";

@@ -4,8 +4,6 @@ $my_str = "my_str";
 echo "<br />" . 'one text and c:\*.*? \n $my_str'; // single quoted
 echo "<br />" . "two text \n and c:\*.*? \n $my_str"; // double quoted
 
-echo "<br />"; // html
-
 $my_str2 = <<<EOD
 my_str2  
 test EOD 
@@ -13,8 +11,6 @@ test text
 EOD;
 
 echo $my_str2;
-
-echo "<br />"; // html
 
 class test_string{
 	

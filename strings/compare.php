@@ -9,12 +9,10 @@ echo strcasecmp("Hello, World!", "HELLO, WORLD!");
 
 //strnatcmp()
 echo strnatcmp("2Hello, World!", "10Hello, World!");
-echo "<br />";
 echo strnatcmp("10Hello, World", "2Hello, World!");
 
 //strnatcasecmp()
 echo strnatcasecmp("2Hello, world!", "10Hello, WORLD!");
-echo "<br />";
 echo strnatcasecmp("10Hello, world!", "2Hello, WORLD!");
 
 //strncmp()

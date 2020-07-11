@@ -1,20 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<style>
-		img{
-			width: 100px;
-			border-radius: 40px;
-		}
-	</style>
-</head>
-<body>
-	
-
-
 <?php
 
 $coffe = array('Cappuccino', 'Espresso', 'Flat white'); //
@@ -49,7 +32,7 @@ $new_order = array(
 	", 
 );
 
-/////
+
 
 print_r($coffe);
 var_dump($coffe);
@@ -71,12 +54,3 @@ print_r($new_order);
 
 
 
-
-
-
-
-
-?>
-
-</body>
-</html>

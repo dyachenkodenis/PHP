@@ -1,9 +1,9 @@
 <?php
 
 //chdir()
-echo getcwd(). "<br />";
+echo getcwd();
 chdir("../files/uploads");
-echo getcwd()."<br />";
+echo getcwd();
 
 //chroot()
 /*
@@ -16,7 +16,6 @@ if(function_exists("chroot")){
 }else{
 	echo "Function does not work!";
 }
-echo "<br />";
 
 //dir()
 $test = dir(getcwd());

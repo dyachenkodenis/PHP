@@ -1,5 +1,4 @@
 <?php
-echo "<pre>"; 
 
 //arithmetics
 
@@ -69,10 +68,10 @@ $test_num1 = 23;
 $test_num2 = 23;
 $test_num3 = 23;
 $test_num4 = 23;
-echo ++$test_num1 . " : ++23 <br />";
-echo $test_num2++ . " : 23++ <br />";
-echo --$test_num3 . " : --23 <br />";
-echo $test_num4-- . " : 23-- <br />";
+echo ++$test_num1 . " : ++23";
+echo $test_num2++ . " : 23++";
+echo --$test_num3 . " : --23";
+echo $test_num4-- . " : 23--";
 
 //logical
 $p = 50;
